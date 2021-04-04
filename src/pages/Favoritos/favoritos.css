@@ -1,0 +1,51 @@
+#meus-filmes {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li{
+    padding: 0;
+    list-style: none;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 23px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+ul li div a {
+    text-decoration: none;
+    color: #0047FF;
+}
+
+ul li div button {
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    outline: none;
+    padding: 12px;
+    transition: all 0.5s;
+}
+
+ul li div button:hover {
+    background: linear-gradient(243.18deg, #0047FF 0%, rgba(0, 71, 255, 0.55) 100%);
+    color: #FFF;
+}
